@@ -23,4 +23,13 @@
         <url-pattern>/servlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Template</servlet-name>
+        <servlet-class>ShowTemplate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Template</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+
 </web-app>
